@@ -13,7 +13,7 @@
 
     //getUserChoice() asks user for input and return value 0, 1 or 2 by checking the value of user input
     const buttonRock = document.querySelector('#rock');
-    buttonRock.addEventListener('click', () => game(0));
+    buttonRock.addEventListener('click', () => {game(0)});
     const buttonPaper = document.querySelector('#paper');
     buttonPaper.addEventListener('click', () => game(1));
     const buttonScissor = document.querySelector('#scissor');
